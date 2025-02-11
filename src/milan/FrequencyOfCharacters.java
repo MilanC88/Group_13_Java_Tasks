@@ -1,38 +1,24 @@
 package milan;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collection;
-import java.util.Collections;
+import java.util.*;
 
 public class FrequencyOfCharacters {
     public static void main(String[] args) {
+
         String str = "AAABBCDD";
 
-        ArrayList<Character> arr = new ArrayList<>();
+        Map<Character, Integer> frequency = new HashMap<>();
 
-        for (int i = 0; i < str.length(); i++) {
-            arr.add(str.charAt(i));
+        for(int i= 0; i < str.length(); i++){
+            char letter = str.charAt(i);
+            frequency.put(letter, frequency.getOrDefault(letter, 0) +1);
         }
 
-        for (int i = 0; i < arr.size(); i++) {
-            int count = Collections.frequency(arr, arr.get(i));
-
-
-            if(arr.indexOf(arr.get(i)) < i){
-                continue;
-            }
-
-            System.out.print(arr.get(i) + "" + count);
-
+        for(Map.Entry<Character, Integer> eachLetter : frequency.entrySet()){
+            System.out.print(eachLetter.getKey()+""+eachLetter.getValue());
         }
 
 
     }
-
-
-
-
-
 
 }
