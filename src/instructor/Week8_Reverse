@@ -5,7 +5,7 @@ public class
 //Write a return method that can reverse String
 //Ex: Reverse("ABCD"); ==> DCBA
 
-W8_Reverse {
+public class W8_Reverse {
    /* Write a return method that can reverse  String
     Ex: Reverse("ABCD"); ==> DCBA*/
    public static void main(String[] args) {

@@ -5,7 +5,7 @@ negative number and return it as int */
 
 
 
-public class W3_Reverse_Negative {
+public class W4_ReverseNegative {
 
 
         public static int reverseNegativeNumber(int a){
@@ -48,6 +48,3 @@ public class W3_Reverse_Negative {
 
 
 }
-/*2. Numbers -- Reverse negative number
-Write a return method that can reverse
-negative number and return it as int */

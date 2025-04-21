@@ -8,9 +8,10 @@
   import java.util.Collections;
   import java.util.LinkedHashSet;
 
-  public class W4_FrequencyOfCharacters {
-     // Write a return method that can find the frequency of characters
-     //  Ex:  FrequencyOfChars("AAABBCDD") ==> A3B2C1D2
+  public class W5_FrequencyOfCharacters {
+
+
+
     //  solution 1:
       public static String FrequencyOfChars1(String str) {
           String nonDup = "";
