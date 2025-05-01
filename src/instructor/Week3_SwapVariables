@@ -4,7 +4,7 @@ Swap two variables' values without using a third variable.
 
 */
 
-public class W3_SwapTwoVariables {
+public class W3_SwapVariables {
     public static void main(String[] args)
         {
             //Question 1
@@ -62,8 +62,3 @@ public class W3_SwapTwoVariables {
 
 
 
-/*
-Numbers – Swap Numbers
-Swap two variables' values without using a third variable.
-
-*/
